@@ -17,10 +17,10 @@ void setup() {
     Serial.println("..");
     delay(500);
   }
-  Serial.println("连接成功");
-  Serial.println("WIFI地址");
-  Serial.print(WiFi.localIP());
-  digitalWrite(LED,0);
+  // Serial.println("连接成功");
+  // Serial.println("WIFI地址");
+  // Serial.print(WiFi.localIP());
+  // digitalWrite(LED,0);
 }
 
 void loop() {
